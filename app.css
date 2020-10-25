@@ -1,0 +1,118 @@
+body {
+    background-color: #f5d9d5;
+    display: block;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Navbar Style */
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5em;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    font-size: 1.5em;
+    font-weight: 100;  
+}
+
+.navbar-nav {
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar-nav:hover {
+    color: red;
+}
+
+.navbar.scrolled {
+    background: #dec0de;
+    transition: background 500ms;
+}
+
+.padding {
+    padding-top: 25px;
+}
+
+/* Main Style */
+.row {
+    margin: 100px 0;
+}
+
+.full-width {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row:first-of-type {
+    margin-top: 0;
+}
+
+p {
+    color: #f498B8;
+    text-align: center;
+    justify-content: center;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+span {
+    color: red;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1em;
+}
+
+h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    font-weight: 100;
+    font-size: 3em;
+    text-align: center;
+}
+
+.container-fluid {
+    display: block;
+}
+
+.textcard {
+    padding-left: 4em;
+    padding-right: 4em;
+    margin: 0 0 48px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3em;
+    }
+    h2 {
+        font-weight: 100;
+        font-size: 2em;
+    }
+}
